@@ -74,7 +74,8 @@ command. The agent returns the generated request; it never sees a private key.
 
 ## Demo story
 
-Watch the [88-second privacy-safe ZeroClaw terminal replay](demo/invoice-sentinel-demo.mp4).
+Watch the [88-second privacy-safe ZeroClaw terminal replay](https://youtu.be/3Micbe0qQFI)
+or [download the repository copy](demo/invoice-sentinel-demo.mp4).
 It is rendered from the real CLI session documented in
 [`docs/prompt-injection-transcript.md`](docs/prompt-injection-transcript.md);
 the reproducible renderer is in
