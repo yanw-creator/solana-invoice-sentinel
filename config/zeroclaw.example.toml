@@ -1,0 +1,31 @@
+schema_version = 3
+
+[providers.models.openai.coding]
+model = "gpt-5.4"
+wire_api = "responses"
+requires_openai_auth = true
+
+[agents.sentinel]
+model_provider = "openai.coding"
+risk_profile = "sentinel"
+skill_bundles = ["invoice-sentinel"]
+
+[agents.sentinel.workspace]
+path = "/absolute/path/to/solana-invoice-sentinel/agent-workspace"
+unrestricted_filesystem = false
+
+[risk_profiles.sentinel]
+level = "supervised"
+workspace_only = true
+require_approval_for_medium_risk = true
+block_high_risk_commands = false
+allowed_commands = ["python"]
+excluded_tools = ["browser", "shell_raw", "delegate", "spawn_subagent"]
+allowed_domains = ["api.devnet.solana.com"]
+
+[skill_bundles.invoice-sentinel]
+directory = "/absolute/path/to/solana-invoice-sentinel/skills"
+
+[memory]
+backend = "sqlite.local"
+embedding_provider = "none"
