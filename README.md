@@ -74,6 +74,12 @@ command. The agent returns the generated request; it never sees a private key.
 
 ## Demo story
 
+Watch the [88-second privacy-safe ZeroClaw terminal replay](demo/invoice-sentinel-demo.mp4).
+It is rendered from the real CLI session documented in
+[`docs/prompt-injection-transcript.md`](docs/prompt-injection-transcript.md);
+the reproducible renderer is in
+[`demo/make_captioned_replay.py`](demo/make_captioned_replay.py).
+
 1. Merchant asks the ZeroClaw CLI agent for an invoice.
 2. Agent proposes the exact command; merchant approves.
 3. Invoice Sentinel creates an ID, reference public key, Solana Pay URI, and QR.
