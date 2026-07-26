@@ -1,5 +1,9 @@
 # Showcase draft
 
+**Repository:** https://github.com/yanw-creator/solana-invoice-sentinel
+
+**88-second demo:** https://github.com/yanw-creator/solana-invoice-sentinel/blob/main/demo/invoice-sentinel-demo.mp4
+
 ## What it does
 
 Invoice Sentinel turns a merchant request into a uniquely referenced Solana Pay
