@@ -2,7 +2,7 @@
 
 **Repository:** https://github.com/yanw-creator/solana-invoice-sentinel
 
-**88-second demo:** https://github.com/yanw-creator/solana-invoice-sentinel/blob/main/demo/invoice-sentinel-demo.mp4
+**88-second demo:** https://youtu.be/3Micbe0qQFI
 
 ## What it does
 
